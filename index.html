@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BuleUnbrella 的个人主页，展示项目、技能与联系方式。">
+  <title>BuleUnbrella | Personal Homepage</title>
+  <link rel="preconnect" href="https://github.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回首页">
+      <span class="brand-mark">B</span>
+      <span>BuleUnbrella</span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#about">关于</a>
+      <a href="#projects">项目</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Personal Website</p>
+        <h1>你好，我是 BuleUnbrella。</h1>
+        <p class="hero-text">
+          这里是我的个人主页 demo，用来展示学习记录、技术项目和正在探索的方向。
+          你可以把它作为 GitHub Pages 的第一版首页，再逐步替换成自己的真实内容。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/BuleUnbrella" target="_blank" rel="noreferrer">访问 GitHub</a>
+          <a class="button secondary" href="#projects">查看项目</a>
+        </div>
+      </div>
+      <div class="profile-panel" aria-label="个人信息卡片">
+        <img class="avatar" src="https://github.com/BuleUnbrella.png" alt="BuleUnbrella 的 GitHub 头像">
+        <div>
+          <p class="panel-label">GitHub</p>
+          <h2>@BuleUnbrella</h2>
+          <p>保持学习，持续构建，把想法变成可以运行的作品。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">About</p>
+        <h2>关于我</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          我正在积累编程、计算机网络、自动化工具与项目实践经验。这个网站可以作为个人简历、
+          作品集、学习日志或技术博客的入口。
+        </p>
+        <ul class="skill-list" aria-label="技能标签">
+          <li>Python</li>
+          <li>GitHub Pages</li>
+          <li>Web</li>
+          <li>Automation</li>
+          <li>Networking</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>项目展示</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="project-meta">Python</p>
+          <h3>MCPS</h3>
+          <p>一个可以继续完善的 Python 项目，适合写清楚目标、功能、技术栈和运行方式。</p>
+          <a href="https://github.com/BuleUnbrella/MCPS" target="_blank" rel="noreferrer">查看仓库</a>
+        </article>
+        <article class="project-card">
+          <p class="project-meta">Notes</p>
+          <h3>Computer Networking Notes</h3>
+          <p>计算机网络学习笔记可以整理成博客或知识库，让学习过程被长期保存下来。</p>
+          <a href="https://github.com/BuleUnbrella/Computer-Networking-A-Top-Down-Approach-NOTES" target="_blank" rel="noreferrer">查看仓库</a>
+        </article>
+        <article class="project-card">
+          <p class="project-meta">Website</p>
+          <h3>Personal Homepage</h3>
+          <p>当前这个 GitHub Pages 网站。后续可以加入博客、简历下载、项目截图和自定义域名。</p>
+          <a href="https://github.com/BuleUnbrella/BuleUnbrella.github.io" target="_blank" rel="noreferrer">查看仓库</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>联系我</h2>
+        <p>你可以先把 GitHub 作为主要联系入口，之后再补充邮箱、博客、LinkedIn 或其他社交链接。</p>
+      </div>
+      <a class="button primary" href="https://github.com/BuleUnbrella" target="_blank" rel="noreferrer">GitHub Profile</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> BuleUnbrella</span>
+    <button class="back-to-top" type="button" aria-label="回到顶部">↑</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
